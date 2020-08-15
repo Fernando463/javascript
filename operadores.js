@@ -1,0 +1,18 @@
+var operacion1= 10==10;
+alert("La operación 10==10 es igual a: "+operacion1);
+var operacion2= 10===10;
+alert("La operación 10===10 da como resultado: "+operacion2);
+var operacion3= 10===10.0;
+alert("La operación 10===10.0 da como resultado: "+operacion3);
+var operacion4= "Laura"=="laura";
+alert("La operación \"Laura\"==\"laura\" da como resultado: "+operacion4);
+var operacion5= "Laura">"laura";
+alert("La operación \"Laura\">\"laura\" da como resultado: "+operacion5);
+var operacion6= "Laura"<"laura";
+alert("La operación \"Laura\"<\"laura\" da como resultado: "+operacion6);
+var operacion7="123"==123;
+alert("La operación \"123\"==123 da como resultado: "+operacion7);
+var operacion8="123"===123;
+alert("La operación \"123\"===123 da como resultado: "+operacion8);
+var operacion9=parseInt("123")===123;
+alert("La operación parseInt(\"123\")===123 da como resultado: "+operacion9);
